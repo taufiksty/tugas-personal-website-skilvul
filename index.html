@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Personal Website (Muhamad Taufik Satya)</title>
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h3><a href="#">Taufik S.</a></h3>
+			<nav id="nav-desktop">
+				<ul class="nav-ul">
+					<li class="nav-li"><a href="./about">About</a></li>
+					<li class="nav-li"><a href="./portfolio">Portfolio</a></li>
+					<li class="nav-li"><a href="./blog">Blog</a></li>
+				</ul>
+			</nav>
+			<div class="icons-menu">
+				<img
+					id="menu-mobile-open"
+					src="./assets/icons/burger-botton.svg"
+					alt="menu-mobile" />
+				<img
+					id="menu-mobile-close"
+					src="./assets/icons/burger-button-close.svg"
+					alt="menu-mobile-close"
+					class="hidden" />
+			</div>
+		</header>
+		<div
+			id="nav-mobile"
+			class="hidden">
+			<ul class="nav-ul">
+				<li>
+					<a
+						href="./about"
+						class="nav-li-mobile"
+						>About</a
+					>
+				</li>
+				<li>
+					<a
+						href="./portfolio"
+						class="nav-li-mobile"
+						>Portfolio</a
+					>
+				</li>
+				<li>
+					<a
+						href="./blog"
+						class="nav-li-mobile"
+						>Blog</a
+					>
+				</li>
+			</ul>
+		</div>
+		<main>
+			<section id="home-section">
+				<div id="home-greet">
+					<h3>Hi! 👋</h3>
+					<h3>I'm <span id="name"></span></h3>
+					<p>
+						Fullstack Web Developer at
+						<a
+							href="https://skilvul.com"
+							target="_blank"
+							id="company"
+							>Skilvul</a
+						>.
+					</p>
+					<div class="button-container">
+						<a
+							href="./about"
+							class="btn btn-secondary"
+							>About</a
+						>
+						<a
+							href="./portfolio"
+							class="btn btn-icons btn-primary">
+							<p style="margin-right: 10px">Projects</p>
+							<img
+								src="./assets/icons/arrow-right.svg"
+								alt="arrow-right"
+								class="arrow-right" />
+						</a>
+					</div>
+				</div>
+				<div id="home-image">
+					<div class="home-image-container">
+						<img
+							id="background-profile"
+							src="./assets/images/background-profile.svg"
+							alt="background-profile" />
+						<img
+							id="profile"
+							src="./assets/images/profile.jpeg"
+							alt="profile" />
+					</div>
+				</div>
+			</section>
+			<div></div>
+		</main>
+		<footer>
+			<div class="footer-container">
+				<a
+					href="https://www.linkedin.com/in/muhamadtaufiksatya/"
+					target="_blank">
+					<img
+						src="./assets/icons/linkedin.png"
+						alt="linkedin"
+						class="icon-footer" />
+					<p class="link-footer">Linkedin</p></a
+				>
+				<a
+					href="https://www.instagram.com/taufiksty/"
+					target="_blank">
+					<img
+						src="./assets/icons/instagram.png"
+						alt="instagram"
+						class="icon-footer" />
+					<p class="link-footer">Instagram</p></a
+				>
+				<a
+					href="https://twitter.com/willbethetopp"
+					target="_blank">
+					<img
+						src="./assets/icons/twitterx.png"
+						alt="twitterx"
+						class="icon-footer" />
+					<p class="link-footer">Twitter|X</p></a
+				>
+				<a
+					href="https://github.com/taufiksty"
+					target="_blank">
+					<img
+						src="./assets/icons/github.png"
+						alt="github"
+						class="icon-footer" />
+					<p class="link-footer">Github</p></a
+				>
+				<a
+					href="https://www.codewars.com/users/taufiksty"
+					target="_blank">
+					<img
+						src="./assets/icons/codewars.png"
+						alt="codewars"
+						class="icon-footer" />
+					<p class="link-footer">Codewars</p></a
+				>
+				<a
+					href="https://dev.to/taufiksty"
+					target="_blank">
+					<img
+						src="./assets/icons/dev.png"
+						alt="dev"
+						class="icon-footer" />
+					<p class="link-footer">Dev.to</p></a
+				>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
